@@ -66,16 +66,8 @@
 </body>
 <script>
     function show() {
-        let menu = document.getElementById('menu');
-        if (menu.style.opacity == 0) {
-            menu.style.opacity = 1;
-            menu.style.display = "flex";
-            // menu.style.transform = "scale(0, 0)";
-        } else {
-            menu.style.opacity = 0;
-            menu.style.display = "none";
-            // menu.style.transform = "scale(1, 1)";
-        }
+        let menu = document.querySelector('#menu');
+        menu.classList.toggle("show");
     }
 </script>
 

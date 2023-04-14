@@ -14,6 +14,4 @@ class Customer extends Model
         'email',
         'current_balance',
     ];
-
-
 }
